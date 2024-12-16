@@ -1,0 +1,116 @@
+/*Top part*/
+body{
+    font-family: "Parkinsans", serif;
+    background-image: url(https://images4.alphacoders.com/133/1331878.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2px solid;
+}
+    body::-webkit-scrollbar {
+        width: 11px;
+    }
+    body::-webkit-scrollbar-track {
+        background: rgb(63, 54, 63);
+    }
+    body::-webkit-scrollbar-thumb {
+        background-color: rgb(104, 104, 106);
+        border-radius: 20px;
+        border: none;
+    }
+#top_bar{
+    background-color: rgb(168, 168, 169); 
+    height: 30px;
+    padding: 7px;
+    margin-top: -9px;
+    margin-left: -9px;
+    margin-right: -9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: nowrap row;
+    overflow: hidden;
+}
+#home_panel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 510px;
+}
+#search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 320px;
+}
+#search_bar{
+    border-radius: 7px;
+    height: 20px;
+    width: 300px;
+    border-style: groove;
+    border-color: rgba(0, 0, 0, 0.636);
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+#search_button{
+    border-style: none;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -26px;
+    margin-bottom: 0px;
+    height: 22px;
+    width: 25px;
+}
+#account_panel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: 123px;
+}
+.top_navigation{
+    color: whitesmoke;
+    text-decoration-line: none;
+}
+/*Top part*/
+/*Middle part*/
+#middle_part{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 701px;
+}
+#Men_section{
+    color: whitesmoke;
+    text-decoration-line: none;
+}
+#Women_section{
+    color: whitesmoke;
+    text-decoration-line: none;
+}
+/*Middle part*/
+/*           */
+/*Bottom part*/
+footer{
+    font-family: "Parkinsans", serif;
+    background-color: rgb(168, 168, 169); 
+    height: 130px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-left: -9px;
+    margin-right: -9px;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    overflow: hidden;
+}
+.bottom_sections{
+    color: whitesmoke;
+    margin-top: 5px;
+}
+.bottom_navigation{
+    color: whitesmoke;
+    text-decoration-line: none;
+    font-size: 13px;
+}
+/*Bottom part*/
